@@ -1,0 +1,33 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.4  24280 15524 ?        Ss   16:29   0:00 /sbin/init
+root           2  0.0  0.0   3180  2208 hvc0     Sl+  16:29   0:00 /init
+root           6  0.0  0.0   3180  2048 hvc0     Sl+  16:29   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          46  0.0  0.4  50404 17068 ?        S<s  16:29   0:00 /usr/lib/systemd/systemd-journald
+systemd+      86  0.0  0.3  22416 14516 ?        Ss   16:29   0:00 /usr/lib/systemd/systemd-resolved
+root          94  0.0  0.3  35292 12320 ?        Ss   16:29   0:00 /usr/lib/systemd/systemd-udevd
+root         116  0.0  0.0   2888  2012 ?        Ss   16:29   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         117  0.0  0.0   4472  3156 ?        Ss   16:29   0:00 /usr/sbin/cron -f -P
+message+     118  0.0  0.1   8808  5428 ?        Ss   16:29   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         122  0.0  0.7  44096 29784 ?        Ss   16:29   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         144  0.0  0.2  18428  9508 ?        Ss   16:29   0:00 /usr/lib/systemd/systemd-logind
+root         169  0.0  0.0   5492  2820 tty1     Ss+  16:29   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+syslog       175  0.0  0.1 220548  5648 ?        Ssl  16:29   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         179  0.1  1.1 1969056 42800 ?       Ssl  16:29   0:05 /usr/bin/containerd
+root         192  0.0  0.8 123460 32608 ?        Ssl  16:29   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+_chrony      223  0.0  0.2  20512  7936 ?        S    16:29   0:00 /usr/sbin/chronyd -n -F 1 -x
+_chrony      231  0.0  0.0  12096  2404 ?        S    16:29   0:00 /usr/sbin/chronyd -n -F 1 -x
+root         252  0.0  2.1 2089864 85272 ?       Ssl  16:29   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         536  0.0  0.0   3188  1112 ?        Ss   16:29   0:00 /init
+root         537  0.0  0.0   3204  1124 ?        S    16:29   0:00 /init
+scaler-+     538  0.0  0.1   6368  5752 pts/0    Ss+  16:29   0:00 -bash
+root         539  0.0  0.1   8648  5668 ?        Ss   16:29   0:00 login -- scaler-190nml3
+scaler-+     580  0.0  0.3  22344 13348 ?        Ss   16:29   0:00 /usr/lib/systemd/systemd --user
+scaler-+     584  0.0  0.1  22920  4072 ?        S    16:29   0:00 (sd-pam)
+scaler-+     604  0.0  0.1   6136  5476 pts/1    Ss+  16:29   0:00 -bash
+root        1000  0.0  0.0   3188  1120 ?        Ss   16:57   0:00 /init
+root        1001  0.0  0.0   3204  1132 ?        S    16:57   0:00 /init
+scaler-+    1007  0.0  0.1   6376  5816 pts/2    Ss   16:57   0:00 -bash
+polkitd     1609  0.0  0.2 306444  8476 ?        Ssl  17:07   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+scaler-+    1664  0.0  0.1   8548  5164 ?        Ss   17:07   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+scaler-+    1831  0.0  0.0   4948  3720 pts/2    S+   17:17   0:00 /bin/bash ./task.sh
+scaler-+    1838  0.0  0.1   7600  4916 pts/2    R+   17:17   0:00 ps -aux
