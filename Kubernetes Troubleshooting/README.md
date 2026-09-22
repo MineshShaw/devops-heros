@@ -60,3 +60,22 @@ Use this when your pod will not start (e.g., stuck in `Pending`, `ImagePullBackO
 
 * `kubectl get events --sort-by='.metadata.creationTimestamp'` — View all recent infrastructure events in the current namespace chronologically.
 * `kubectl describe pod my-app-pod` — Inspect a specific pod; the cluster events explaining why it is failing to start are listed at the very bottom of the output.
+
+## Mini Project
+### Get Pods
+![get pods](./images/miniproject-get-pods.png)
+
+### Localhost Nginx
+![localhost nginx](./images/miniproject-exec-localhost.png)
+
+### Get Broken Pod
+![get broken pod](./images/miniproject-get-broken-pod.png)
+
+### Describe Broken Pod
+![describe broken pod](./images/miniproject-describe-brokenpod.png)
+
+### Get Service Endpoints
+![get service endpoints](./images/miniproject-endpoints.png)
+
+### Broken Service
+![broken service](./images/miniproject-brokenservice.png)
