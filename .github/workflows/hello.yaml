@@ -11,3 +11,5 @@ jobs:
         run: date
       - name: Show operating system
         run: uname -a
+      - name: Print Name
+        run: echo "Hello Minesh!"
