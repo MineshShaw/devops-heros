@@ -13,3 +13,8 @@ jobs:
         run: uname -a
       - name: Print Name
         run: echo "Hello Minesh!"
+  mellow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pika!
+        run: echo "Pikachu!"
