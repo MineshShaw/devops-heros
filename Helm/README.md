@@ -18,3 +18,20 @@
 
 ### Simple Chart Rollback
 ![simple chart rollback](./images/rollback_status-simple-chart.png)
+
+## Mini Project 
+### Linting
+![](./images-helm/linting.png)
+
+### Deployment
+![](./images-helm/deployment.png)
+
+### Upgrade
+![](./images-helm/upgrade.png)
+
+### Bad Upgrade
+![](./images-helm/bad_upgrade.png)
+![](./images-helm/bad_upgrade_error.png)
+
+### Rollback 
+![](./images-helm/rollback.png)

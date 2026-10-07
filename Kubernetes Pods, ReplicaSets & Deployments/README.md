@@ -55,3 +55,55 @@ StatefulSets are used for stateful applications that require one or more of the 
 
 ### Execution
 ![Output showing the StatefulSet and its sequentially numbered Pods](./images/statefulset.png)
+
+# Deployments
+## Rolling
+
+### Rolling V1
+![](./images-deployments/rolling-v1.png)
+![](./images-deployments/rolling-v1-page.png)
+
+### Rolling V2
+![](./images-deployments/rolling-v2.png)
+![](./images-deployments/rolling-v2-page.png)
+
+### Rolling undo 
+![](./images-deployments/rolling-undo.png)
+
+## Canary
+### Canary V1
+![](./images-deployments/canary-v1.png)
+
+### Canary V2
+![](./images-deployments/canary-v2.png)
+
+### Canary Scaling
+![](./images-deployments/canary-v2-scaling.png)
+
+### Canary Switched
+![](./images-deployments/canary-v2-switched.png)
+
+### canary Rollback
+![](./images-deployments/canary-v2-rollback.png)
+
+## Blue Green
+### Blue Green Deployment
+![](./images-deployments/blue-green-deployments.png)
+
+### Service Blue 
+![](./images-deployments/service-blue.png)
+
+### Service Green
+![](./images-deployments/service-green.png)
+
+## Recreate
+### Recreate V1
+![](./images-deployments/recreate-v1.png)
+![](./images-deployments/recreate-v1-page.png)
+
+### Recreate V2
+![](./images-deployments/recreate-v2.png)
+![](./images-deployments/recreate-v2-page.png)
+
+# Pod Lifecycle
+![](./images-deployments/pod-lifecycle.png)

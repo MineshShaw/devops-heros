@@ -18,3 +18,13 @@
 
 ## HPA
 ![hpa](./images/04-hpa.png)
+
+## Mini Project
+### Deployment
+![](./images-storage_hpa_probes/mini-project%20deployment.png)
+
+### Storage Verification
+![](./images-storage_hpa_probes/storage-persistence-verification.png)
+
+### Service Verification
+![](./images-storage_hpa_probes/service-verification.png)
